@@ -27,12 +27,19 @@ input {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  padding-left: 10px;
+  color: #3256d8;
+  font-size: 16px;
 }
 textarea {
   border: 1px solid #808080;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 4px;
-  width: 360px;
+  width: 350px;
   height: 80px;
+  padding: 10px;
+  color: #3256d8;
+  font-size: 16px;
 }
 
 button {
@@ -46,5 +53,18 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;xxxxxxxxxxxxxxxx
+  color: #fff;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+
+input:hover,
+input:active {
+  border: 1px solid #000;
+}
+
+textarea:hover {
+  border: 1px solid #000;
 }
